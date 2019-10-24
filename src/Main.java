@@ -1,4 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -24,10 +23,10 @@ public class Main {
 //        System.out.println(isPrime);
 
             if(isPrime){
-                System.out.println(userInput + " is prime");
+                System.out.println(userInput + " is a prime number");
             }
             else {
-                System.out.printf(userInput + " is not prime");
+                System.out.printf(userInput + " is not a prime number");
             }
 
         System.out.println();
@@ -52,10 +51,10 @@ public class Main {
 //        System.out.println(isRandPrime);
 
         if(isRandPrime){
-            System.out.println(x + " is prime");
+            System.out.println(x + " is a prime number");
         }
         else {
-            System.out.println(x + " is not prime");
+            System.out.println(x + " is not a prime number");
         }
 
 
